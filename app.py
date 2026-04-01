@@ -217,7 +217,7 @@ if smiles_input:
             st.plotly_chart(comp_fig, width='stretch')
 
             # DYNAMIC INTERPRETABILITY
-            with st.expander("🔬 Scientific Decision Logic (For Judges)"):
+            with st.expander("🔬 Scientific Decision Logic:
 
                 qed_status = "Superior" if user_qed > ZINC_QED else "Sub-optimal"
 
